@@ -1,0 +1,20 @@
+features_names:
+- GP
+- MIN
+- PTS
+- FGM
+- FGA
+- FG%
+- 3P Made
+- 3PA
+- 3P%
+- FTM
+- FTA
+- FT%
+- OREB
+- DREB
+- REB
+- AST
+- STL
+- BLK
+- TOV

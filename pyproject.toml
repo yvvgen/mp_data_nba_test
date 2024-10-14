@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "mp-data-nba-test"
+version = "0.1.0"
+description = "Test Technique MPDATA"
+authors = ["Nessim Kerkeni"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.29.5"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+scipy = "^1.14.1"
+scikit-learn = "^1.5.2"
+seaborn = "^0.13.2"
+tqdm = "^4.66.5"
+flask = "^3.0.3"
+joblib = "^1.4.2"
+requests = "^2.32.3"
+pyyaml = "^6.0.2"
+gunicorn = "^23.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
